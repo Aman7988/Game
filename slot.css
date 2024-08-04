@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.jackpot {
+    font-size: 8em;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.slot {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    background-color: #333;
+    color: #ffffff;
+    margin: 0 5px;
+    border-radius: 5px;
+    text-shadow: #007bff;
+}
+.Image{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    
+
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 2em;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 3px;
+    font-size: 3em;
+}
+#winImage {
+    margin-top: 2px;
+    width: 200px;
+    height: 200px;
+}
+
